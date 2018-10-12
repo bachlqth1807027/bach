@@ -1,26 +1,28 @@
 .a{
+	background-color: #eaf2ff;
 	border: black 2px solid ;
 	border-top: 3px solid;
 	border-left: 3px solid;
 	border-right: 3px solid;
 	height: 120px;
 }
-img{
+img{float: left;
 	padding-top: 30px;
 	padding-left: 150px;
 }
 .b{
-	float: right;
-	width: 80%;
+	float: left;
+	width: 40%;
 }
 .c{
 	font-size: xx-large;
-	padding-top: 35px;
+	padding-top: 40px;
 }
 .d{
-	float: left;
-    width: 20%;
-    padding-left: 75%;
+	float: right;
+    width: 40%;
+    height: 60%;
+    padding-top: 50px;
 }
 .e{
 	border-right: black 1px solid;
@@ -53,17 +55,14 @@ img{
 	border: 2px solid;
 	border-left: 3px  solid;
 	border-right: 3px solid;
-	height: 500px;
+	height: 1300px;
 }
 .m{
 	width: 17%;
 	float: left;
-	margin-top: 3%;
+	margin-top: 5%;
 	margin-right: 7%;
 	margin-left: 8%;
-	}
-.img{
-	width: 100%;
 	}
 .k{
 	background-color: #6fa8dc;
@@ -79,4 +78,14 @@ img{
 a{
 	font-size: 20px;
 	color: #6fa8dc;
+}
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border: 4px dotted;
 }
